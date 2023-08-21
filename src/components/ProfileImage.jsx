@@ -1,13 +1,12 @@
-// import React from 'react';
-
-
-// class Tweet extends React.Component {
-//   render() {
-
-//     return (
-//       <img src={this.props.image} className="Tweet" alt="profile" />
-//     );
-//   }
-// }
-
-// export default Tweet;
+function ProfileImage(props) {
+   
+    return (
+        <img
+        src={props.user.image}
+        className="profile"
+        alt="profile"
+      />
+    );
+  }
+   
+  export default ProfileImage;
