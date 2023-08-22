@@ -44,9 +44,9 @@ function App() {
     <div className="App">
 
       {
-        tweetsArray.map((tweet, index)=>(
-          <Tweet tweet={tweet} key={index}/>
-        ))
+        tweetsArray.map((tweet)=>(
+          <Tweet tweet={tweet}/>
+        ))  
       }
 
       {/* <Tweet tweet={tweetsArray[0]}/> */}

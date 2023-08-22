@@ -15,7 +15,7 @@ function Tweet(props) {
 
       <div className="body">
         <div className="top">
-          <User user={user} handle={user.handle}/>
+          <User user={user} handle={user}/>
           <Timestamp timestamp={timestamp}/>
           
         </div>
